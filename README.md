@@ -3,9 +3,9 @@
 This is a summary of my solutions to the problems on [LeetCode](https://www.leetcode.com). 
 
 
-1. [Two Sum][1_link]  \[Solutions [python][1_py] [java][1_java] [cpp][1_cpp]\]
+11. [Two Sum][1_link]  \[Solutions [python][1_py] [java][1_java] [cpp][1_cpp]\]
 2. [Add Two Numbers][2_link]     \[Solutions [python][1_py] [java][1_java] [cpp][1_cpp]\]    
-4. [Median of two sorted arrays][4_link]   \[Solutions [python][1_py] [java][1_java] [cpp][1_cpp]\]
+3. [Median of two sorted arrays][4_link]   \[Solutions [python][1_py] [java][1_java] [cpp][1_cpp]\]
 
 <!-- &#x1f512;   for the lock -->
 <!-- tiltle -->
