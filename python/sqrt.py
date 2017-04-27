@@ -1,0 +1,17 @@
+class Solution(object):
+    def mySqrt(self, x):
+        """
+        :type x: int
+        :rtype: int
+        """
+        if x == 0:
+            return 0
+        lo = 0
+        hi = x
+        while lo < hi:
+            mid = lo + (hi - lo + 1)//2
+            if mid**2 > x:
+                hi = mid - 1
+            else:
+                lo = mid
+        return lo
