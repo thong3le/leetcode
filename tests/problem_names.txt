@@ -1,0 +1,226 @@
+1	
+Two Sum   		32.6%	Easy	
+7	
+Reverse Integer   		24.1%	Easy	
+8	
+String to Integer (atoi)   		13.9%	Medium	
+9	
+Palindrome Number   		34.7%	Easy	
+10	
+Regular Expression Matching   		23.9%	Hard	
+13	
+Roman to Integer   		44.8%	Easy	
+14	
+Longest Common Prefix   		31.1%	Easy	
+15	
+3Sum   		21.5%	Medium	
+16	
+3Sum Closest   		30.8%	Medium	
+18	
+4Sum   		26.2%	Medium	
+19	
+Remove Nth Node From End of List   		32.8%	Medium	
+20	
+Valid Parentheses   		32.9%	Easy	
+21	
+Merge Two Sorted Lists   		38.6%	Easy	
+22	
+Generate Parentheses   		43.4%	Medium	
+26	
+Remove Duplicates from Sorted Array   		35.5%	Easy	
+27	
+Remove Element   		38.1%	Easy	
+28	
+Implement strStr()   		27.6%	Easy	
+34	
+Search for a Range   		31.1%	Medium	
+35	
+Search Insert Position   		39.4%	Easy	
+36	
+Valid Sudoku   		34.8%	Medium	
+38	
+Count and Say   		33.6%	Easy	
+41	
+First Missing Positive   		25.2%	Hard	
+49	
+Group Anagrams   		33.3%	Medium	
+56	
+Merge Intervals   		29.3%	Medium	
+58	
+Length of Last Word   		31.5%	Easy	
+66	
+Plus One   		37.8%	Easy	
+67	
+Add Binary   		31.5%	Easy	
+69	
+Sqrt(x)   		27.5%	Easy	
+70	
+Climbing Stairs   		39.3%	Easy	
+71	
+Simplify Path   		24.7%	Medium	
+74	
+Search a 2D Matrix   		35.3%	Medium	
+79	
+Word Search   		26.1%	Medium	
+83	
+Remove Duplicates from Sorted List   		39.4%	Easy	
+84	
+Largest Rectangle in Histogram   		26.1%	Hard	
+88	
+Merge Sorted Array   		31.7%	Easy	
+91	
+Decode Ways   		19.3%	Medium	
+94	
+Binary Tree Inorder Traversal   		45.3%	Medium	
+98	
+Validate Binary Search Tree   		22.9%	Medium	
+100	
+Same Tree   		45.9%	Easy	
+101	
+Symmetric Tree   		37.9%	Easy	
+102	
+Binary Tree Level Order Traversal   		38.4%	Medium	
+104	
+Maximum Depth of Binary Tree   		51.8%	Easy	
+106	
+Construct Binary Tree from Inorder and Postorder Traversal   		31.5%	Medium	
+107	
+Binary Tree Level Order Traversal II   		39.1%	Easy	
+110	
+Balanced Binary Tree   		36.9%	Easy	
+111	
+Minimum Depth of Binary Tree   		32.7%	Easy	
+112	
+Path Sum   		33.5%	Easy	
+118	
+Pascal's Triangle   		37.7%	Easy	
+119	
+Pascal's Triangle II   		35.9%	Easy	
+121	
+Best Time to Buy and Sell Stock   		40.3%	Easy	
+124	
+Binary Tree Maximum Path Sum   		25.5%	Hard	
+125	
+Valid Palindrome   		25.9%	Easy	
+133	
+Clone Graph   		25.1%	Medium	
+136	
+Single Number   		53.7%	Easy	
+139	
+Word Break   		29.1%	Medium	
+140	
+Word Break II   		22.7%	Hard	
+144	
+Binary Tree Preorder Traversal   		44.1%	Medium	
+151	
+Reverse Words in a String   		15.7%	Medium	
+152	
+Maximum Product Subarray   		25.1%	Medium	
+155	
+Min Stack   		27.6%	Easy	
+160	
+Intersection of Two Linked Lists   		30.3%	Easy	
+165	
+Compare Version Numbers   		19.7%	Medium	
+168	
+Excel Sheet Column Title   		25.3%	Easy	
+169	
+Majority Element   		45.8%	Easy	
+171	
+Excel Sheet Column Number   		46.2%	Easy	
+172	
+Factorial Trailing Zeroes   		35.5%	Easy	
+173	
+Binary Search Tree Iterator   		40.3%	Medium	
+187	
+Repeated DNA Sequences   		30.6%	Medium	
+189	
+Rotate Array   		24.1%	Easy	
+190	
+Reverse Bits   		29.5%	Easy	
+191	
+Number of 1 Bits   		39.1%	Easy	
+198	
+House Robber   		38.2%	Easy	
+199	
+Binary Tree Right Side View   		39.8%	Medium	
+202	
+Happy Number   		40.0%	Easy	
+204	
+Count Primes   		26.4%	Easy	
+205	
+Isomorphic Strings   		33.2%	Easy	
+206	
+Reverse Linked List   		44.6%	Easy	
+212	
+Word Search II   		22.8%	Hard	
+217	
+Contains Duplicate   		44.8%	Easy	
+218	
+The Skyline Problem   		26.6%	Hard	
+219	
+Contains Duplicate II   		32.0%	Easy	
+220	
+Contains Duplicate III   		19.2%	Medium	
+224	
+Basic Calculator   		26.3%	Hard	
+225	
+Implement Stack using Queues   		32.1%	Easy	
+226	
+Invert Binary Tree   		50.9%	Easy	
+228	
+Summary Ranges   		28.9%	Medium	
+231	
+Power of Two   		39.8%	Easy	
+232	
+Implement Queue using Stacks   		35.9%	Easy	
+234	
+Palindrome Linked List   		32.2%	Easy	
+235	
+Lowest Common Ancestor of a Binary Search Tree   		38.5%	Easy	
+237	
+Delete Node in a Linked List   		46.0%	Easy	
+238	
+Product of Array Except Self   		48.2%	Medium	
+240	
+Search a 2D Matrix II   		38.1%	Medium	
+242	
+Valid Anagram   		45.7%	Easy	
+257	
+Binary Tree Paths   		36.9%	Easy	
+258	
+Add Digits   		50.7%	Easy	
+263	
+Ugly Number   		38.8%	Easy	
+278	
+First Bad Version   		24.8%	Easy	
+283	
+Move Zeroes   		49.0%	Easy	
+290	
+Word Pattern   		32.6%	Easy	
+299	
+Bulls and Cows   		34.0%	Medium	
+310	
+Minimum Height Trees   		28.7%	Medium	
+334	
+Increasing Triplet Subsequence   		38.6%	Medium	
+344	
+Reverse String   		58.4%	Easy	
+349	
+Intersection of Two Arrays   		46.6%	Easy	
+350	
+Intersection of Two Arrays II   		44.3%	Easy	
+368	
+Largest Divisible Subset   		33.5%	Medium	
+371	
+Sum of Two Integers   		51.2%	Easy	
+378	
+Kth Smallest Element in a Sorted Matrix   		43.8%	Medium	
+406	
+Queue Reconstruction by Height   		54.8%	Medium	
+467	
+Unique Substrings in Wraparound String   		31.4%	Medium	
+516	
+Longest Palindromic Subsequence   		42.3%	Medium	
+530	
+Minimum Absolute Difference in BST   		47.5%	Easy
