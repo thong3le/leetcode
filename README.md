@@ -8,11 +8,6 @@ This is a summary of my solutions to the problems on [LeetCode](https://www.leet
 | 2  | [Add Two Numbers][2_link] \[ [python][py]  [java][java]   [cpp][cpp] \]
 | 4  | [Median of Two Sorted Arrays][4_link] \[ [python][py]  [java][java]   [cpp][cpp] \] 
 
-<!--
-11.   \[Solutions [python][1_py] [java][1_java] [cpp][1_cpp]\]
-2.      \[Solutions [python][1_py] [java][1_java] [cpp][1_cpp]\]    
-3.    \[Solutions [python][1_py] [java][1_java] [cpp][1_cpp]\]
--->
 <!-- &#x1f512;   for the lock -->
 <!-- tiltle -->
 [1_link]:    https://leetcode.com/problems/two-sum/
