@@ -6,7 +6,7 @@ This is a summary of my solutions to the problems on [LeetCode](https://www.leet
 |------------- | ------------- 
 | 1  | [Two Sum][1_link] \[ [python][py]  [java][java]   [cpp][cpp] \]
 | 2  | [Add Two Numbers][2_link] \[ [python][py]  [java][java]   [cpp][cpp] \]
-| 4  | [Median of two sorted arrays][4_link] \[ [python][py]  [java][java]   [cpp][cpp] \] 
+| 4  | [Median of Two Sorted Arrays][4_link] \[ [python][py]  [java][java]   [cpp][cpp] \] 
 
 <!--
 11.   \[Solutions [python][1_py] [java][1_java] [cpp][1_cpp]\]
