@@ -3,11 +3,9 @@
 This is a summary of my solutions to the problems on [LeetCode](https://www.leetcode.com). 
 
 
-| #  | Title                            		| 
-|----|---|---|
-|1   | [Two Sum][1_link]                		|
-|2   | [Add Two Numbers][2_link]        		|
-|4	 | [Median of two sorted arrays][4_link]	|
+1. [Two Sum][1_link]
+2. [Add Two Numbers][2_link]        
+4. [Median of two sorted arrays][4_link]
 
 <!-- &#x1f512;   for the lock -->
 <!-- tiltle -->
