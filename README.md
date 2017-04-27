@@ -4,9 +4,9 @@ This is a summary of my solutions to the problems on [LeetCode](https://www.leet
 
 | #  | Title                            |  Python  	| Java  | CPP  	| 
 |----|---|---|
-|1   | [Two Sum][1_link]                |			|		|		|
-|2   | [Add Two Numbers][2_link]        |			|		|		|
-|4	 | [Median of two sorted arrays][4_link]	|			|		|		|
+|1   | [Two Sum][1_link]                |	_1.py	|	_1.java	|	_1.cpp	|
+|2   | [Add Two Numbers][2_link]        |		_2.py	|	_2.java	|	_2.cpp	|
+|4	 | [Median of two sorted arrays][4_link]	|	_4.py	|	_4.java	|	_4.cpp	|
 
 
 <!-- &#x1f512;   for the lock -->
