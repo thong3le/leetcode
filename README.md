@@ -17,6 +17,3 @@ This is a summary of my solutions to the problems on [LeetCode](https://www.leet
 
 
 <!-- solution -->
-[1_py]: 
-[1_java]: 
-[1_cpp]: 
