@@ -2,11 +2,11 @@
 
 This is a summary of my solutions to the problems on [LeetCode](https://www.leetcode.com). 
 
-|  #  | Problems
-|------------- | -------------
-| 1  | [Two Sum][1_link]
-| 2  | [Add Two Numbers][2_link]
-| 4  | [Median of two sorted arrays][4_link]
+|  #  | Problems  |  Solutions |
+|------------- | ------------- |
+| 1  | [Two Sum][1_link]                           |  [python][py]  [java][java]   [cpp][cpp] |
+| 2  | [Add Two Numbers][2_link]                     |  [python][py]  [java][java]   [cpp][cpp] |
+| 4  | [Median of two sorted arrays][4_link]           |  [python][py]  [java][java]   [cpp][cpp] |
 
 <!--
 11.   \[Solutions [python][1_py] [java][1_java] [cpp][1_cpp]\]
@@ -21,6 +21,6 @@ This is a summary of my solutions to the problems on [LeetCode](https://www.leet
 
 
 <!-- solution -->
-[1_py]: https://github.com/thongle91/Leetcode-Solutions/blob/master/python/bulls_cows.py
-[1_java]: https://github.com/thongle91/Leetcode-Solutions/blob/master/python/bulls_cows.py
-[1_cpp]: https://github.com/thongle91/Leetcode-Solutions/blob/master/python/bulls_cows.py
+[py]: https://github.com/thongle91/Leetcode-Solutions/blob/master/python
+[java]: https://github.com/thongle91/Leetcode-Solutions/blob/master/python
+[cpp]: https://github.com/thongle91/Leetcode-Solutions/blob/master/python
