@@ -1,6 +1,9 @@
 # LeetCode Problem and Solutions
 
-This is a summary of my solutions to the problems on [LeetCode](https://www.leetcode.com). 
+This is a summary of my solutions to the problems on [LeetCode](https://www.leetcode.com). The solution approaches of each problem are usually at the beginning of the  source file. Please feel free to share any of your thoughts!
+
+
+
 
 |  #  | Problems and Solutions 
 |------------- | ------------- 
