@@ -1,6 +1,6 @@
 /* 
 *    Author: Thong Le
-*    Date: 
+*    Date: May 2, 2017
 *   
 *    LeetCode 283 - Move Zeroes
 *
@@ -20,10 +20,9 @@ using namespace std;
 
 class Solution {
 public:
-
-	int func() {
-		return 0;
-	}
+    void moveZeroes(vector<int>& nums) {
+        fill(remove(nums.begin(), nums.end(), 0), nums.end(), 0);     
+    }
 };
 
 

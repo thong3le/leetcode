@@ -1,6 +1,6 @@
 /* 
 *    Author: Thong Le
-*    Date: 
+*    Date: May 2, 2017
 *   
 *    LeetCode 344 - Reverse String
 *
@@ -20,10 +20,10 @@ using namespace std;
 
 class Solution {
 public:
-
-	int func() {
-		return 0;
-	}
+    string reverseString(string s) {
+        reverse(s.begin(), s.end());
+        return s;
+    }
 };
 
 

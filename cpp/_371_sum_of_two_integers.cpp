@@ -1,6 +1,6 @@
 /* 
 *    Author: Thong Le
-*    Date: 
+*    Date: May 2, 2017
 *   
 *    LeetCode 371 - Sum of Two Integers
 *
@@ -20,10 +20,9 @@ using namespace std;
 
 class Solution {
 public:
-
-	int func() {
-		return 0;
-	}
+    int getSum(int a, int b) {
+        return b==0 ? a : getSum(a^b, (a&b)<<1); 
+    }
 };
 
 

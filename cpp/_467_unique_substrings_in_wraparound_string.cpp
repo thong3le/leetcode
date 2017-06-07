@@ -1,6 +1,6 @@
 /* 
 *    Author: Thong Le
-*    Date: 
+*    Date: May 2, 2017
 *   
 *    LeetCode 467 - Unique Substrings in Wraparound String
 *
@@ -20,10 +20,21 @@ using namespace std;
 
 class Solution {
 public:
-
-	int func() {
-		return 0;
-	}
+    int findSubstringInWraproundString(string p) {
+        vector<int> count(26,0);
+        int max_contiguous = 1;
+        for(int i = 0; i < p.size(); i++){
+            if (i > 0 && (p[i] - p[i-1] == 1 || p[i-1] - p[i] == 25))
+                max_contiguous++;
+            else
+                max_contiguous = 1;
+            count[p[i] - 'a'] = max(count[p[i] - 'a'], max_contiguous);
+        }
+        int ans = 0;
+        for(int i = 0; i < 26; i++)
+            ans += count[i];
+        return ans;
+    }
 };
 
 

@@ -1,6 +1,6 @@
 /* 
 * Author: Thong Le
-* Date: 
+* Date: May 2, 2017
 *
 * LeetCode 27 - Remove Element
 *
@@ -12,8 +12,15 @@
 
 
 
-
 public class _027_remove_element {
-	public int function_name() {
-	}
+	public int removeElement(int[] A, int elem) {
+        int count = A.length;
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        for (int i : A){
+            if (i == elem) count--;
+            else list.add(i);
+        }
+        for (int i = 0; i < count; i++) A[i] = list.get(i);
+        return count;
+    }
 }
