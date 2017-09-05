@@ -20,10 +20,15 @@ using namespace std;
 
 class Solution {
 public:
-
-	int func() {
-		return 0;
-	}
+    bool checkRecord(string s) {
+        int countA = 0;
+        for(int i = 0; i < s.length(); i++){
+            if (s[i] == 'A') countA++;
+            if (countA > 1) return false;
+            if (i > 1 && s[i] == 'L' && s[i-1] == 'L' && s[i-2] == 'L') return false;
+        }
+        return true;
+    }
 };
 
 

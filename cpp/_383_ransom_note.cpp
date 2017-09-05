@@ -20,10 +20,23 @@ using namespace std;
 
 class Solution {
 public:
+    bool canConstruct(string ransomNote, string magazine) {
+        unordered_map<char, int> map;
+        for (char c : magazine) map[c]++;
+        for(char c: ransomNote){
+            if(map.find(c) == map.end() || map[c] == 0) return false;
+            map[c]--;
+        }
+        return true;
+    }
 
-	int func() {
-		return 0;
-	}
+    bool canConstruct2(string ransomNote, string magazine) {
+        int count[26] = {0};
+        for (char c : magazine) count[c - 'a']++;
+        for(char c: ransomNote)
+            if(--count[c-'a'] < 0) return false;
+        return true;
+    }
 };
 
 

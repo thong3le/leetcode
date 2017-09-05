@@ -18,12 +18,28 @@
 
 using namespace std;
 
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
 class Solution {
 public:
-
-	int func() {
-		return 0;
-	}
+    TreeNode* sortedArrayToBST(vector<int>& nums) {
+        return buildBST(nums, 0, nums.size()-1);
+    }
+    TreeNode* buildBST(vector<int>& nums, int i, int j) {
+        if (j < i) return NULL;
+        int mid = (i+j)/2;
+        TreeNode* root = new TreeNode(nums[mid]);
+        root->left = buildBST(nums, i, mid-1);
+        root->right = buildBST(nums, mid+1, j);
+        return root;
+    }
 };
 
 

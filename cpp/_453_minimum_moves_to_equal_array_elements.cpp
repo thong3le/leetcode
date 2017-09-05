@@ -20,10 +20,13 @@ using namespace std;
 
 class Solution {
 public:
-
-	int func() {
-		return 0;
-	}
+    int minMoves(vector<int>& nums) {
+        if (nums.size() <= 1) return 0;
+        int m = nums[0], ans = 0;
+        for(int x : nums) m = min(x, m);
+        for(int x : nums) ans += x - m;
+        return ans;
+    }
 };
 
 

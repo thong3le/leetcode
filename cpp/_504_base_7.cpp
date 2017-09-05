@@ -20,10 +20,19 @@ using namespace std;
 
 class Solution {
 public:
-
-	int func() {
-		return 0;
-	}
+    string convertToBase7(int num) {
+        if (num == 0) return "0";
+        string result;
+        int positive = abs(num);
+        while (positive) {
+            char c = '0' + (positive % 7);
+            result.push_back(c);
+            positive /= 7;
+        }
+        if (num < 0) result.push_back('-');
+        reverse(result.begin(), result.end());
+        return result;
+    }
 };
 
 

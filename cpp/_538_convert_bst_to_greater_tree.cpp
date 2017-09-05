@@ -18,12 +18,28 @@
 
 using namespace std;
 
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
 class Solution {
+    int cur_sum = 0;
 public:
-
-	int func() {
-		return 0;
-	}
+    TreeNode* convertBST(TreeNode* root) {
+        traverse(root);
+        return root;
+    }
+    void traverse(TreeNode* root){
+        if (!root) return;
+        traverse(root->right);
+        root->val = (cur_sum += root->val);
+        traverse(root->left);
+    }
 };
 
 

@@ -20,13 +20,27 @@ using namespace std;
 
 class Solution {
 public:
-
-	int func() {
-		return 0;
-	}
+    string toHex(int num) {
+        const string HEX = "0123456789abcdef";
+        if (num == 0) return "0";
+        string result;
+        for(int i = 0; i < 8; i++) {
+            result.push_back(HEX[num & 0xf]);
+            num >>= 4;
+            if (num == 0) break;
+        }
+        reverse(result.begin(), result.end());
+        return result;
+    }
 };
 
-
 int main() {
+	int x = -223232124;
+	bitset<32> b(x);
+	cout << b << endl;
+	x >>= 4;
+	bitset<32> c(x);
+	cout << c << endl;
+	cout << x << endl;
 	return 0;
 }

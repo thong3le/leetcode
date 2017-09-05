@@ -20,10 +20,14 @@ using namespace std;
 
 class Solution {
 public:
-
-	int func() {
-		return 0;
-	}
+    int longestPalindrome(string s) {
+        int count[256] = {0};
+        for (char c : s) count[c]++;
+        int odds = 0;
+        for(int i = 0; i < 256; i++)
+            if (count[i] % 2) odds++;
+        return s.length() - odds + (odds>0);
+    }
 };
 
 
