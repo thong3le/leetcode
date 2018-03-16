@@ -1,0 +1,31 @@
+1	Two Sum	35.6%	Easy	
+13	Roman to Integer	46.4%	Easy	
+20	Valid Parentheses	33.6%	Easy	
+26	Remove Duplicates from Sorted Array	35.4%	Easy	
+28	Implement strStr()	28.4%	Easy	
+38	Count and Say	35.3%	Easy	
+67	Add Binary	32.9%	Easy	
+69	Sqrt(x)	28.0%	Easy	
+88	Merge Sorted Array	32.1%	Easy	
+121	Best Time to Buy and Sell Stock	41.7%	Easy	
+125	Valid Palindrome	26.5%	Easy	
+168	Excel Sheet Column Title	26.5%	Easy	
+206	Reverse Linked List	45.9%	Easy	
+234	Palindrome Linked List	33.0%	Easy	
+235	Lowest Common Ancestor of a Binary Search Tree	39.3%	Easy	
+257	Binary Tree Paths	39.3%	Easy	
+278	First Bad Version	25.6%	Easy	
+283	Move Zeroes	50.4%	Easy	
+404	Sum of Left Leaves	47.2%	Easy	
+461	Hamming Distance	69.9%	Easy	
+543	Diameter of Binary Tree	44.4%	Easy	
+572	Subtree of Another Tree	40.8%	Easy	
+597	Friend Requests I: Overall Acceptance Rate 	36.0%	Easy	
+637	Average of Levels in Binary Tree	55.8%	Easy	
+653	Two Sum IV - Input is a BST	50.7%	Easy	
+674	Longest Continuous Increasing Subsequence	43.0%	Easy	
+680	Valid Palindrome II	31.9%	Easy	
+
+
+###157	Read N Characters Given Read4 	29.0%	Easy	
+###252	Meeting Rooms 	48.0%	Easy	

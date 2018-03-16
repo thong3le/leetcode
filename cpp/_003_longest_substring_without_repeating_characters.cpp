@@ -20,10 +20,15 @@ using namespace std;
 
 class Solution {
 public:
-
-	int func() {
-		return 0;
-	}
+    int lengthOfLongestSubstring(string s) {
+        int n = s.length();
+        int count[256] = {0}, ans = 0;
+        for(int l = 0, r = 0; l < n && r < n; count[s[l++]]--){
+            while (r < n && count[s[r]] == 0)  count[s[r++]]++;
+            if (r-l > ans) ans = r-l;
+        }
+        return ans;
+    }
 };
 
 
